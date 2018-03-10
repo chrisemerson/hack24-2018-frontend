@@ -1,6 +1,8 @@
 <?php
 // DIC configuration
 
+use ManyWays\Site\Actions\HomeAction;
+
 $container = $app->getContainer();
 
 // -----------------------------------------------------------------------------
@@ -41,6 +43,6 @@ $container['logger'] = function ($c) {
 // Action factories
 // -----------------------------------------------------------------------------
 
-$container[App\Action\HomeAction::class] = function ($c) {
-    return new App\Action\HomeAction($c->get('view'), $c->get('logger'));
+$container[HomeAction::class] = function ($c) {
+    return new HomeAction($c->get('view'), $c->get('logger'));
 };
