@@ -2,3 +2,5 @@
 /vendor/
 /log/*
 /cache/*
+/public/css/*
+!/public/css/.gitkeep
