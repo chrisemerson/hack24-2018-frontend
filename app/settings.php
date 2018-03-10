@@ -7,7 +7,7 @@ return [
 
         // View settings
         'view' => [
-            'template_path' => __DIR__ . '/templates',
+            'template_path' => __DIR__ . '/../assets/templates',
             'twig' => [
                 'cache' => __DIR__ . '/../cache/twig',
                 'debug' => true,

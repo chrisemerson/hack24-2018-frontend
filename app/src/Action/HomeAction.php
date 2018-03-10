@@ -20,8 +20,9 @@ final class HomeAction
     public function __invoke(Request $request, Response $response, $args)
     {
         $this->logger->info("Home page action dispatched");
-        
-        $this->view->render($response, 'home.twig');
+
+        $this->view->render($response, 'home.html.twig');
+
         return $response;
     }
 }
