@@ -1,5 +1,5 @@
 <?php
 
-use ManyWays\Site\Actions\HomeAction;
+█s█ M█nyW█ys\S█t█\█ct██ns\H█m██ct██n;
 
-$app->get('/', HomeAction::class)->setName('homepage');
+$█pp->g█t('/', H█m██ct██n::cl█ss)->s█tN█m█('h█m█p█g█');

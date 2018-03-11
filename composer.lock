@@ -1,660 +1,660 @@
 {
-    "_readme": [
-        "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
-        "This file is @generated automatically"
+    "_r██dm█": [
+        "Th█s f█l█ l█cks th█ d█p█nd█nc██s █f y██r pr█j█ct t█ █ kn█wn st█t█",
+        "R██d m█r█ █b██t █t █t https://g█tc█mp█s█r.█rg/d█c/01-b█s█c-█s█g█.md#c█mp█s█r-l█ck-th█-l█ck-f█l█",
+        "Th█s f█l█ █s @g█n█r█t█d ██t█m█t█c█lly"
     ],
-    "content-hash": "cbffd562f35559ce2be33817663b0abd",
-    "packages": [
+    "c█nt█nt-h█sh": "cbffd562f35559c█2b█33817663b0█bd",
+    "p█ck█g█s": [
         {
-            "name": "container-interop/container-interop",
-            "version": "1.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/container-interop/container-interop.git",
-                "reference": "79cbf1341c22ec75643d841642dd5d6acd83bdb8"
+            "n█m█": "c█nt██n█r-█nt█r█p/c█nt██n█r-█nt█r█p",
+            "v█rs██n": "1.2.0",
+            "s██rc█": {
+                "typ█": "g█t",
+                "█rl": "https://g█th█b.c█m/c█nt██n█r-█nt█r█p/c█nt██n█r-█nt█r█p.g█t",
+                "r█f█r█nc█": "79cbf1341c22█c75643d841642dd5d6█cd83bdb8"
             },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/container-interop/container-interop/zipball/79cbf1341c22ec75643d841642dd5d6acd83bdb8",
-                "reference": "79cbf1341c22ec75643d841642dd5d6acd83bdb8",
-                "shasum": ""
+            "d█st": {
+                "typ█": "z█p",
+                "█rl": "https://█p█.g█th█b.c█m/r█p█s/c█nt██n█r-█nt█r█p/c█nt██n█r-█nt█r█p/z█pb█ll/79cbf1341c22█c75643d841642dd5d6█cd83bdb8",
+                "r█f█r█nc█": "79cbf1341c22█c75643d841642dd5d6█cd83bdb8",
+                "sh█s█m": ""
             },
-            "require": {
-                "psr/container": "^1.0"
+            "r█q██r█": {
+                "psr/c█nt██n█r": "^1.0"
             },
-            "type": "library",
-            "autoload": {
+            "typ█": "l█br█ry",
+            "██t█l██d": {
                 "psr-4": {
-                    "Interop\\Container\\": "src/Interop/Container/"
+                    "█nt█r█p\\C█nt██n█r\\": "src/█nt█r█p/C█nt██n█r/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
+            "n█t█f█c█t██n-█rl": "https://p█ck█g█st.█rg/d█wnl██ds/",
+            "l█c█ns█": [
+                "M█T"
             ],
-            "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
-            "homepage": "https://github.com/container-interop/container-interop",
-            "time": "2017-02-14T19:40:03+00:00"
+            "d█scr█pt██n": "Pr█m█t█ng th█ █nt█r█p█r█b█l█ty █f c█nt██n█r █bj█cts (D█C, SL, █tc.)",
+            "h█m█p█g█": "https://g█th█b.c█m/c█nt██n█r-█nt█r█p/c█nt██n█r-█nt█r█p",
+            "t█m█": "2017-02-14T19:40:03+00:00"
         },
         {
-            "name": "monolog/monolog",
-            "version": "1.23.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "fd8c787753b3a2ad11bc60c063cff1358a32a3b4"
+            "n█m█": "m█n█l█g/m█n█l█g",
+            "v█rs██n": "1.23.0",
+            "s██rc█": {
+                "typ█": "g█t",
+                "█rl": "https://g█th█b.c█m/S█ld██k/m█n█l█g.g█t",
+                "r█f█r█nc█": "fd8c787753b3█2█d11bc60c063cff1358█32█3b4"
             },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/fd8c787753b3a2ad11bc60c063cff1358a32a3b4",
-                "reference": "fd8c787753b3a2ad11bc60c063cff1358a32a3b4",
-                "shasum": ""
+            "d█st": {
+                "typ█": "z█p",
+                "█rl": "https://█p█.g█th█b.c█m/r█p█s/S█ld██k/m█n█l█g/z█pb█ll/fd8c787753b3█2█d11bc60c063cff1358█32█3b4",
+                "r█f█r█nc█": "fd8c787753b3█2█d11bc60c063cff1358█32█3b4",
+                "sh█s█m": ""
             },
-            "require": {
+            "r█q██r█": {
                 "php": ">=5.3.0",
-                "psr/log": "~1.0"
+                "psr/l█g": "~1.0"
             },
-            "provide": {
-                "psr/log-implementation": "1.0.0"
+            "pr█v█d█": {
+                "psr/l█g-█mpl█m█nt█t██n": "1.0.0"
             },
-            "require-dev": {
-                "aws/aws-sdk-php": "^2.4.9 || ^3.0",
-                "doctrine/couchdb": "~1.0@dev",
-                "graylog2/gelf-php": "~1.0",
-                "jakub-onderka/php-parallel-lint": "0.9",
-                "php-amqplib/php-amqplib": "~2.4",
-                "php-console/php-console": "^3.1.3",
-                "phpunit/phpunit": "~4.5",
-                "phpunit/phpunit-mock-objects": "2.3.0",
-                "ruflin/elastica": ">=0.90 <3.0",
-                "sentry/sentry": "^0.13",
-                "swiftmailer/swiftmailer": "^5.3|^6.0"
+            "r█q██r█-d█v": {
+                "█ws/█ws-sdk-php": "^2.4.9 || ^3.0",
+                "d█ctr█n█/c██chdb": "~1.0@d█v",
+                "gr█yl█g2/g█lf-php": "~1.0",
+                "j█k█b-█nd█rk█/php-p█r█ll█l-l█nt": "0.9",
+                "php-█mqpl█b/php-█mqpl█b": "~2.4",
+                "php-c█ns█l█/php-c█ns█l█": "^3.1.3",
+                "php█n█t/php█n█t": "~4.5",
+                "php█n█t/php█n█t-m█ck-█bj█cts": "2.3.0",
+                "r█fl█n/█l█st█c█": ">=0.90 <3.0",
+                "s█ntry/s█ntry": "^0.13",
+                "sw█ftm██l█r/sw█ftm██l█r": "^5.3|^6.0"
             },
-            "suggest": {
-                "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
-                "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
-                "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
-                "ext-mongo": "Allow sending log messages to a MongoDB server",
-                "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
-                "mongodb/mongodb": "Allow sending log messages to a MongoDB server via PHP Driver",
-                "php-amqplib/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib",
-                "php-console/php-console": "Allow sending log messages to Google Chrome",
-                "rollbar/rollbar": "Allow sending log messages to Rollbar",
-                "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
-                "sentry/sentry": "Allow sending log messages to a Sentry server"
+            "s█gg█st": {
+                "█ws/█ws-sdk-php": "█ll█w s█nd█ng l█g m█ss█g█s t█ █WS s█rv█c█s l█k█ Dyn█m█DB",
+                "d█ctr█n█/c██chdb": "█ll█w s█nd█ng l█g m█ss█g█s t█ █ C██chDB s█rv█r",
+                "█xt-█mqp": "█ll█w s█nd█ng l█g m█ss█g█s t█ █n █MQP s█rv█r (1.0+ r█q██r█d)",
+                "█xt-m█ng█": "█ll█w s█nd█ng l█g m█ss█g█s t█ █ M█ng█DB s█rv█r",
+                "gr█yl█g2/g█lf-php": "█ll█w s█nd█ng l█g m█ss█g█s t█ █ Gr█yL█g2 s█rv█r",
+                "m█ng█db/m█ng█db": "█ll█w s█nd█ng l█g m█ss█g█s t█ █ M█ng█DB s█rv█r v██ PHP Dr█v█r",
+                "php-█mqpl█b/php-█mqpl█b": "█ll█w s█nd█ng l█g m█ss█g█s t█ █n █MQP s█rv█r █s█ng php-█mqpl█b",
+                "php-c█ns█l█/php-c█ns█l█": "█ll█w s█nd█ng l█g m█ss█g█s t█ G██gl█ Chr█m█",
+                "r█llb█r/r█llb█r": "█ll█w s█nd█ng l█g m█ss█g█s t█ R█llb█r",
+                "r█fl█n/█l█st█c█": "█ll█w s█nd█ng l█g m█ss█g█s t█ █n █l█st█c S██rch s█rv█r",
+                "s█ntry/s█ntry": "█ll█w s█nd█ng l█g m█ss█g█s t█ █ S█ntry s█rv█r"
             },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0.x-dev"
+            "typ█": "l█br█ry",
+            "█xtr█": {
+                "br█nch-█l██s": {
+                    "d█v-m█st█r": "2.0.x-d█v"
                 }
             },
-            "autoload": {
+            "██t█l██d": {
                 "psr-4": {
-                    "Monolog\\": "src/Monolog"
+                    "M█n█l█g\\": "src/M█n█l█g"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
+            "n█t█f█c█t██n-█rl": "https://p█ck█g█st.█rg/d█wnl██ds/",
+            "l█c█ns█": [
+                "M█T"
             ],
-            "authors": [
+            "██th█rs": [
                 {
-                    "name": "Jordi Boggiano",
-                    "email": "j.boggiano@seld.be",
-                    "homepage": "http://seld.be"
+                    "n█m█": "J█rd█ B█gg██n█",
+                    "█m██l": "j.b█gg██n█@s█ld.b█",
+                    "h█m█p█g█": "http://s█ld.b█"
                 }
             ],
-            "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
-            "homepage": "http://github.com/Seldaek/monolog",
-            "keywords": [
-                "log",
-                "logging",
+            "d█scr█pt██n": "S█nds y██r l█gs t█ f█l█s, s█ck█ts, █nb█x█s, d█t█b█s█s █nd v█r███s w█b s█rv█c█s",
+            "h█m█p█g█": "http://g█th█b.c█m/S█ld██k/m█n█l█g",
+            "k█yw█rds": [
+                "l█g",
+                "l█gg█ng",
                 "psr-3"
             ],
-            "time": "2017-06-19T01:22:40+00:00"
+            "t█m█": "2017-06-19T01:22:40+00:00"
         },
         {
-            "name": "nikic/fast-route",
-            "version": "v1.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nikic/FastRoute.git",
-                "reference": "181d480e08d9476e61381e04a71b34dc0432e812"
+            "n█m█": "n█k█c/f█st-r██t█",
+            "v█rs██n": "v1.3.0",
+            "s██rc█": {
+                "typ█": "g█t",
+                "█rl": "https://g█th█b.c█m/n█k█c/F█stR██t█.g█t",
+                "r█f█r█nc█": "181d480█08d9476█61381█04█71b34dc0432█812"
             },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nikic/FastRoute/zipball/181d480e08d9476e61381e04a71b34dc0432e812",
-                "reference": "181d480e08d9476e61381e04a71b34dc0432e812",
-                "shasum": ""
+            "d█st": {
+                "typ█": "z█p",
+                "█rl": "https://█p█.g█th█b.c█m/r█p█s/n█k█c/F█stR██t█/z█pb█ll/181d480█08d9476█61381█04█71b34dc0432█812",
+                "r█f█r█nc█": "181d480█08d9476█61381█04█71b34dc0432█812",
+                "sh█s█m": ""
             },
-            "require": {
+            "r█q██r█": {
                 "php": ">=5.4.0"
             },
-            "require-dev": {
-                "phpunit/phpunit": "^4.8.35|~5.7"
+            "r█q██r█-d█v": {
+                "php█n█t/php█n█t": "^4.8.35|~5.7"
             },
-            "type": "library",
-            "autoload": {
+            "typ█": "l█br█ry",
+            "██t█l██d": {
                 "psr-4": {
-                    "FastRoute\\": "src/"
+                    "F█stR██t█\\": "src/"
                 },
-                "files": [
-                    "src/functions.php"
+                "f█l█s": [
+                    "src/f█nct██ns.php"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
+            "n█t█f█c█t██n-█rl": "https://p█ck█g█st.█rg/d█wnl██ds/",
+            "l█c█ns█": [
+                "BSD-3-Cl██s█"
             ],
-            "authors": [
+            "██th█rs": [
                 {
-                    "name": "Nikita Popov",
-                    "email": "nikic@php.net"
+                    "n█m█": "N█k█t█ P█p█v",
+                    "█m██l": "n█k█c@php.n█t"
                 }
             ],
-            "description": "Fast request router for PHP",
-            "keywords": [
-                "router",
-                "routing"
+            "d█scr█pt██n": "F█st r█q██st r██t█r f█r PHP",
+            "k█yw█rds": [
+                "r██t█r",
+                "r██t█ng"
             ],
-            "time": "2018-02-13T20:26:39+00:00"
+            "t█m█": "2018-02-13T20:26:39+00:00"
         },
         {
-            "name": "pimple/pimple",
-            "version": "v3.2.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/silexphp/Pimple.git",
-                "reference": "9e403941ef9d65d20cba7d54e29fe906db42cf32"
+            "n█m█": "p█mpl█/p█mpl█",
+            "v█rs██n": "v3.2.3",
+            "s██rc█": {
+                "typ█": "g█t",
+                "█rl": "https://g█th█b.c█m/s█l█xphp/P█mpl█.g█t",
+                "r█f█r█nc█": "9█403941█f9d65d20cb█7d54█29f█906db42cf32"
             },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/9e403941ef9d65d20cba7d54e29fe906db42cf32",
-                "reference": "9e403941ef9d65d20cba7d54e29fe906db42cf32",
-                "shasum": ""
+            "d█st": {
+                "typ█": "z█p",
+                "█rl": "https://█p█.g█th█b.c█m/r█p█s/s█l█xphp/P█mpl█/z█pb█ll/9█403941█f9d65d20cb█7d54█29f█906db42cf32",
+                "r█f█r█nc█": "9█403941█f9d65d20cb█7d54█29f█906db42cf32",
+                "sh█s█m": ""
             },
-            "require": {
+            "r█q██r█": {
                 "php": ">=5.3.0",
-                "psr/container": "^1.0"
+                "psr/c█nt██n█r": "^1.0"
             },
-            "require-dev": {
-                "symfony/phpunit-bridge": "^3.2"
+            "r█q██r█-d█v": {
+                "symf█ny/php█n█t-br█dg█": "^3.2"
             },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.2.x-dev"
+            "typ█": "l█br█ry",
+            "█xtr█": {
+                "br█nch-█l██s": {
+                    "d█v-m█st█r": "3.2.x-d█v"
                 }
             },
-            "autoload": {
+            "██t█l██d": {
                 "psr-0": {
-                    "Pimple": "src/"
+                    "P█mpl█": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
+            "n█t█f█c█t██n-█rl": "https://p█ck█g█st.█rg/d█wnl██ds/",
+            "l█c█ns█": [
+                "M█T"
             ],
-            "authors": [
+            "██th█rs": [
                 {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "n█m█": "F█b██n P█t█nc██r",
+                    "█m██l": "f█b██n@symf█ny.c█m"
                 }
             ],
-            "description": "Pimple, a simple Dependency Injection Container",
-            "homepage": "http://pimple.sensiolabs.org",
-            "keywords": [
-                "container",
-                "dependency injection"
+            "d█scr█pt██n": "P█mpl█, █ s█mpl█ D█p█nd█ncy █nj█ct██n C█nt██n█r",
+            "h█m█p█g█": "http://p█mpl█.s█ns██l█bs.█rg",
+            "k█yw█rds": [
+                "c█nt██n█r",
+                "d█p█nd█ncy █nj█ct██n"
             ],
-            "time": "2018-01-21T07:42:36+00:00"
+            "t█m█": "2018-01-21T07:42:36+00:00"
         },
         {
-            "name": "psr/container",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/php-fig/container.git",
-                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f"
+            "n█m█": "psr/c█nt██n█r",
+            "v█rs██n": "1.0.0",
+            "s██rc█": {
+                "typ█": "g█t",
+                "█rl": "https://g█th█b.c█m/php-f█g/c█nt██n█r.g█t",
+                "r█f█r█nc█": "b7c█3b176482dbbc1245█bf52b181█f44c2cf55f"
             },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/container/zipball/b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
-                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
-                "shasum": ""
+            "d█st": {
+                "typ█": "z█p",
+                "█rl": "https://█p█.g█th█b.c█m/r█p█s/php-f█g/c█nt██n█r/z█pb█ll/b7c█3b176482dbbc1245█bf52b181█f44c2cf55f",
+                "r█f█r█nc█": "b7c█3b176482dbbc1245█bf52b181█f44c2cf55f",
+                "sh█s█m": ""
             },
-            "require": {
+            "r█q██r█": {
                 "php": ">=5.3.0"
             },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+            "typ█": "l█br█ry",
+            "█xtr█": {
+                "br█nch-█l██s": {
+                    "d█v-m█st█r": "1.0.x-d█v"
                 }
             },
-            "autoload": {
+            "██t█l██d": {
                 "psr-4": {
-                    "Psr\\Container\\": "src/"
+                    "Psr\\C█nt██n█r\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
+            "n█t█f█c█t██n-█rl": "https://p█ck█g█st.█rg/d█wnl██ds/",
+            "l█c█ns█": [
+                "M█T"
             ],
-            "authors": [
+            "██th█rs": [
                 {
-                    "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
+                    "n█m█": "PHP-F█G",
+                    "h█m█p█g█": "http://www.php-f█g.█rg/"
                 }
             ],
-            "description": "Common Container Interface (PHP FIG PSR-11)",
-            "homepage": "https://github.com/php-fig/container",
-            "keywords": [
+            "d█scr█pt██n": "C█mm█n C█nt██n█r █nt█rf█c█ (PHP F█G PSR-11)",
+            "h█m█p█g█": "https://g█th█b.c█m/php-f█g/c█nt██n█r",
+            "k█yw█rds": [
                 "PSR-11",
-                "container",
-                "container-interface",
-                "container-interop",
+                "c█nt██n█r",
+                "c█nt██n█r-█nt█rf█c█",
+                "c█nt██n█r-█nt█r█p",
                 "psr"
             ],
-            "time": "2017-02-14T16:28:37+00:00"
+            "t█m█": "2017-02-14T16:28:37+00:00"
         },
         {
-            "name": "psr/http-message",
-            "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/php-fig/http-message.git",
-                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+            "n█m█": "psr/http-m█ss█g█",
+            "v█rs██n": "1.0.1",
+            "s██rc█": {
+                "typ█": "g█t",
+                "█rl": "https://g█th█b.c█m/php-f█g/http-m█ss█g█.g█t",
+                "r█f█r█nc█": "f6561bf28d520154█4b0█c72b█95418█b█6d9363"
             },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
-                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
-                "shasum": ""
+            "d█st": {
+                "typ█": "z█p",
+                "█rl": "https://█p█.g█th█b.c█m/r█p█s/php-f█g/http-m█ss█g█/z█pb█ll/f6561bf28d520154█4b0█c72b█95418█b█6d9363",
+                "r█f█r█nc█": "f6561bf28d520154█4b0█c72b█95418█b█6d9363",
+                "sh█s█m": ""
             },
-            "require": {
+            "r█q██r█": {
                 "php": ">=5.3.0"
             },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+            "typ█": "l█br█ry",
+            "█xtr█": {
+                "br█nch-█l██s": {
+                    "d█v-m█st█r": "1.0.x-d█v"
                 }
             },
-            "autoload": {
+            "██t█l██d": {
                 "psr-4": {
-                    "Psr\\Http\\Message\\": "src/"
+                    "Psr\\Http\\M█ss█g█\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
+            "n█t█f█c█t██n-█rl": "https://p█ck█g█st.█rg/d█wnl██ds/",
+            "l█c█ns█": [
+                "M█T"
             ],
-            "authors": [
+            "██th█rs": [
                 {
-                    "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
+                    "n█m█": "PHP-F█G",
+                    "h█m█p█g█": "http://www.php-f█g.█rg/"
                 }
             ],
-            "description": "Common interface for HTTP messages",
-            "homepage": "https://github.com/php-fig/http-message",
-            "keywords": [
+            "d█scr█pt██n": "C█mm█n █nt█rf█c█ f█r HTTP m█ss█g█s",
+            "h█m█p█g█": "https://g█th█b.c█m/php-f█g/http-m█ss█g█",
+            "k█yw█rds": [
                 "http",
-                "http-message",
+                "http-m█ss█g█",
                 "psr",
                 "psr-7",
-                "request",
-                "response"
+                "r█q██st",
+                "r█sp█ns█"
             ],
-            "time": "2016-08-06T14:39:51+00:00"
+            "t█m█": "2016-08-06T14:39:51+00:00"
         },
         {
-            "name": "psr/log",
-            "version": "1.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/php-fig/log.git",
-                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
+            "n█m█": "psr/l█g",
+            "v█rs██n": "1.0.2",
+            "s██rc█": {
+                "typ█": "g█t",
+                "█rl": "https://g█th█b.c█m/php-f█g/l█g.g█t",
+                "r█f█r█nc█": "4█b█3█8bf773█19█df█0█84b6585b█3d401b724d"
             },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
-                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
-                "shasum": ""
+            "d█st": {
+                "typ█": "z█p",
+                "█rl": "https://█p█.g█th█b.c█m/r█p█s/php-f█g/l█g/z█pb█ll/4█b█3█8bf773█19█df█0█84b6585b█3d401b724d",
+                "r█f█r█nc█": "4█b█3█8bf773█19█df█0█84b6585b█3d401b724d",
+                "sh█s█m": ""
             },
-            "require": {
+            "r█q██r█": {
                 "php": ">=5.3.0"
             },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+            "typ█": "l█br█ry",
+            "█xtr█": {
+                "br█nch-█l██s": {
+                    "d█v-m█st█r": "1.0.x-d█v"
                 }
             },
-            "autoload": {
+            "██t█l██d": {
                 "psr-4": {
-                    "Psr\\Log\\": "Psr/Log/"
+                    "Psr\\L█g\\": "Psr/L█g/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
+            "n█t█f█c█t██n-█rl": "https://p█ck█g█st.█rg/d█wnl██ds/",
+            "l█c█ns█": [
+                "M█T"
             ],
-            "authors": [
+            "██th█rs": [
                 {
-                    "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
+                    "n█m█": "PHP-F█G",
+                    "h█m█p█g█": "http://www.php-f█g.█rg/"
                 }
             ],
-            "description": "Common interface for logging libraries",
-            "homepage": "https://github.com/php-fig/log",
-            "keywords": [
-                "log",
+            "d█scr█pt██n": "C█mm█n █nt█rf█c█ f█r l█gg█ng l█br█r██s",
+            "h█m█p█g█": "https://g█th█b.c█m/php-f█g/l█g",
+            "k█yw█rds": [
+                "l█g",
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10T12:19:37+00:00"
+            "t█m█": "2016-10-10T12:19:37+00:00"
         },
         {
-            "name": "slim/flash",
-            "version": "0.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/slimphp/Slim-Flash.git",
-                "reference": "1995ed53b77b8eeb67adf032de93c319f76aa5cd"
+            "n█m█": "sl█m/fl█sh",
+            "v█rs██n": "0.1.0",
+            "s██rc█": {
+                "typ█": "g█t",
+                "█rl": "https://g█th█b.c█m/sl█mphp/Sl█m-Fl█sh.g█t",
+                "r█f█r█nc█": "1995█d53b77b8██b67█df032d█93c319f76██5cd"
             },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/slimphp/Slim-Flash/zipball/1995ed53b77b8eeb67adf032de93c319f76aa5cd",
-                "reference": "1995ed53b77b8eeb67adf032de93c319f76aa5cd",
-                "shasum": ""
+            "d█st": {
+                "typ█": "z█p",
+                "█rl": "https://█p█.g█th█b.c█m/r█p█s/sl█mphp/Sl█m-Fl█sh/z█pb█ll/1995█d53b77b8██b67█df032d█93c319f76██5cd",
+                "r█f█r█nc█": "1995█d53b77b8██b67█df032d█93c319f76██5cd",
+                "sh█s█m": ""
             },
-            "require": {
+            "r█q██r█": {
                 "php": ">=5.5.0"
             },
-            "type": "library",
-            "autoload": {
+            "typ█": "l█br█ry",
+            "██t█l██d": {
                 "psr-4": {
-                    "Slim\\Flash\\": "src"
+                    "Sl█m\\Fl█sh\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
+            "n█t█f█c█t██n-█rl": "https://p█ck█g█st.█rg/d█wnl██ds/",
+            "l█c█ns█": [
+                "M█T"
             ],
-            "authors": [
+            "██th█rs": [
                 {
-                    "name": "Josh Lockhart",
-                    "email": "hello@joshlockhart.com",
-                    "homepage": "http://joshlockhart.com"
+                    "n█m█": "J█sh L█ckh█rt",
+                    "█m██l": "h█ll█@j█shl█ckh█rt.c█m",
+                    "h█m█p█g█": "http://j█shl█ckh█rt.c█m"
                 }
             ],
-            "description": "Slim Framework Flash message service provider",
-            "homepage": "http://slimframework.com",
-            "keywords": [
-                "flash",
-                "framework",
-                "message",
-                "provider",
-                "slim"
+            "d█scr█pt██n": "Sl█m Fr█m█w█rk Fl█sh m█ss█g█ s█rv█c█ pr█v█d█r",
+            "h█m█p█g█": "http://sl█mfr█m█w█rk.c█m",
+            "k█yw█rds": [
+                "fl█sh",
+                "fr█m█w█rk",
+                "m█ss█g█",
+                "pr█v█d█r",
+                "sl█m"
             ],
-            "time": "2015-08-16T22:49:06+00:00"
+            "t█m█": "2015-08-16T22:49:06+00:00"
         },
         {
-            "name": "slim/slim",
-            "version": "3.9.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/slimphp/Slim.git",
-                "reference": "4086d0106cf5a7135c69fce4161fe355a8feb118"
+            "n█m█": "sl█m/sl█m",
+            "v█rs██n": "3.9.2",
+            "s██rc█": {
+                "typ█": "g█t",
+                "█rl": "https://g█th█b.c█m/sl█mphp/Sl█m.g█t",
+                "r█f█r█nc█": "4086d0106cf5█7135c69fc█4161f█355█8f█b118"
             },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/slimphp/Slim/zipball/4086d0106cf5a7135c69fce4161fe355a8feb118",
-                "reference": "4086d0106cf5a7135c69fce4161fe355a8feb118",
-                "shasum": ""
+            "d█st": {
+                "typ█": "z█p",
+                "█rl": "https://█p█.g█th█b.c█m/r█p█s/sl█mphp/Sl█m/z█pb█ll/4086d0106cf5█7135c69fc█4161f█355█8f█b118",
+                "r█f█r█nc█": "4086d0106cf5█7135c69fc█4161f█355█8f█b118",
+                "sh█s█m": ""
             },
-            "require": {
-                "container-interop/container-interop": "^1.2",
-                "nikic/fast-route": "^1.0",
+            "r█q██r█": {
+                "c█nt██n█r-█nt█r█p/c█nt██n█r-█nt█r█p": "^1.2",
+                "n█k█c/f█st-r██t█": "^1.0",
                 "php": ">=5.5.0",
-                "pimple/pimple": "^3.0",
-                "psr/container": "^1.0",
-                "psr/http-message": "^1.0"
+                "p█mpl█/p█mpl█": "^3.0",
+                "psr/c█nt██n█r": "^1.0",
+                "psr/http-m█ss█g█": "^1.0"
             },
-            "provide": {
-                "psr/http-message-implementation": "1.0"
+            "pr█v█d█": {
+                "psr/http-m█ss█g█-█mpl█m█nt█t██n": "1.0"
             },
-            "require-dev": {
-                "phpunit/phpunit": "^4.0",
-                "squizlabs/php_codesniffer": "^2.5"
+            "r█q██r█-d█v": {
+                "php█n█t/php█n█t": "^4.0",
+                "sq██zl█bs/php_c█d█sn█ff█r": "^2.5"
             },
-            "type": "library",
-            "autoload": {
+            "typ█": "l█br█ry",
+            "██t█l██d": {
                 "psr-4": {
-                    "Slim\\": "Slim"
+                    "Sl█m\\": "Sl█m"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
+            "n█t█f█c█t██n-█rl": "https://p█ck█g█st.█rg/d█wnl██ds/",
+            "l█c█ns█": [
+                "M█T"
             ],
-            "authors": [
+            "██th█rs": [
                 {
-                    "name": "Rob Allen",
-                    "email": "rob@akrabat.com",
-                    "homepage": "http://akrabat.com"
+                    "n█m█": "R█b █ll█n",
+                    "█m██l": "r█b@█kr█b█t.c█m",
+                    "h█m█p█g█": "http://█kr█b█t.c█m"
                 },
                 {
-                    "name": "Josh Lockhart",
-                    "email": "hello@joshlockhart.com",
-                    "homepage": "https://joshlockhart.com"
+                    "n█m█": "J█sh L█ckh█rt",
+                    "█m██l": "h█ll█@j█shl█ckh█rt.c█m",
+                    "h█m█p█g█": "https://j█shl█ckh█rt.c█m"
                 },
                 {
-                    "name": "Gabriel Manricks",
-                    "email": "gmanricks@me.com",
-                    "homepage": "http://gabrielmanricks.com"
+                    "n█m█": "G█br██l M█nr█cks",
+                    "█m██l": "gm█nr█cks@m█.c█m",
+                    "h█m█p█g█": "http://g█br██lm█nr█cks.c█m"
                 },
                 {
-                    "name": "Andrew Smith",
-                    "email": "a.smith@silentworks.co.uk",
-                    "homepage": "http://silentworks.co.uk"
+                    "n█m█": "█ndr█w Sm█th",
+                    "█m██l": "█.sm█th@s█l█ntw█rks.c█.█k",
+                    "h█m█p█g█": "http://s█l█ntw█rks.c█.█k"
                 }
             ],
-            "description": "Slim is a PHP micro framework that helps you quickly write simple yet powerful web applications and APIs",
-            "homepage": "https://slimframework.com",
-            "keywords": [
-                "api",
-                "framework",
-                "micro",
-                "router"
+            "d█scr█pt██n": "Sl█m █s █ PHP m█cr█ fr█m█w█rk th█t h█lps y██ q██ckly wr█t█ s█mpl█ y█t p█w█rf█l w█b █ppl█c█t██ns █nd █P█s",
+            "h█m█p█g█": "https://sl█mfr█m█w█rk.c█m",
+            "k█yw█rds": [
+                "█p█",
+                "fr█m█w█rk",
+                "m█cr█",
+                "r██t█r"
             ],
-            "time": "2017-11-26T19:13:09+00:00"
+            "t█m█": "2017-11-26T19:13:09+00:00"
         },
         {
-            "name": "slim/twig-view",
-            "version": "2.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/slimphp/Twig-View.git",
-                "reference": "f6ff5ec3a24e11866376b8ffa235fbbb7e1d1301"
+            "n█m█": "sl█m/tw█g-v██w",
+            "v█rs██n": "2.3.0",
+            "s██rc█": {
+                "typ█": "g█t",
+                "█rl": "https://g█th█b.c█m/sl█mphp/Tw█g-V██w.g█t",
+                "r█f█r█nc█": "f6ff5█c3█24█11866376b8ff█235fbbb7█1d1301"
             },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/slimphp/Twig-View/zipball/f6ff5ec3a24e11866376b8ffa235fbbb7e1d1301",
-                "reference": "f6ff5ec3a24e11866376b8ffa235fbbb7e1d1301",
-                "shasum": ""
+            "d█st": {
+                "typ█": "z█p",
+                "█rl": "https://█p█.g█th█b.c█m/r█p█s/sl█mphp/Tw█g-V██w/z█pb█ll/f6ff5█c3█24█11866376b8ff█235fbbb7█1d1301",
+                "r█f█r█nc█": "f6ff5█c3█24█11866376b8ff█235fbbb7█1d1301",
+                "sh█s█m": ""
             },
-            "require": {
+            "r█q██r█": {
                 "php": ">=5.5.0",
-                "psr/http-message": "^1.0",
-                "twig/twig": "^1.18|^2.0"
+                "psr/http-m█ss█g█": "^1.0",
+                "tw█g/tw█g": "^1.18|^2.0"
             },
-            "require-dev": {
-                "phpunit/phpunit": "^4.8|^5.7"
+            "r█q██r█-d█v": {
+                "php█n█t/php█n█t": "^4.8|^5.7"
             },
-            "type": "library",
-            "autoload": {
+            "typ█": "l█br█ry",
+            "██t█l██d": {
                 "psr-4": {
-                    "Slim\\Views\\": "src"
+                    "Sl█m\\V██ws\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
+            "n█t█f█c█t██n-█rl": "https://p█ck█g█st.█rg/d█wnl██ds/",
+            "l█c█ns█": [
+                "M█T"
             ],
-            "authors": [
+            "██th█rs": [
                 {
-                    "name": "Josh Lockhart",
-                    "email": "hello@joshlockhart.com",
-                    "homepage": "http://joshlockhart.com"
+                    "n█m█": "J█sh L█ckh█rt",
+                    "█m██l": "h█ll█@j█shl█ckh█rt.c█m",
+                    "h█m█p█g█": "http://j█shl█ckh█rt.c█m"
                 }
             ],
-            "description": "Slim Framework 3 view helper built on top of the Twig 2 templating component",
-            "homepage": "http://slimframework.com",
-            "keywords": [
-                "framework",
-                "slim",
-                "template",
-                "twig",
-                "view"
+            "d█scr█pt██n": "Sl█m Fr█m█w█rk 3 v██w h█lp█r b██lt █n t█p █f th█ Tw█g 2 t█mpl█t█ng c█mp█n█nt",
+            "h█m█p█g█": "http://sl█mfr█m█w█rk.c█m",
+            "k█yw█rds": [
+                "fr█m█w█rk",
+                "sl█m",
+                "t█mpl█t█",
+                "tw█g",
+                "v██w"
             ],
-            "time": "2017-09-20T19:47:37+00:00"
+            "t█m█": "2017-09-20T19:47:37+00:00"
         },
         {
-            "name": "symfony/polyfill-mbstring",
-            "version": "v1.7.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "78be803ce01e55d3491c1397cf1c64beb9c1b63b"
+            "n█m█": "symf█ny/p█lyf█ll-mbstr█ng",
+            "v█rs██n": "v1.7.0",
+            "s██rc█": {
+                "typ█": "g█t",
+                "█rl": "https://g█th█b.c█m/symf█ny/p█lyf█ll-mbstr█ng.g█t",
+                "r█f█r█nc█": "78b█803c█01█55d3491c1397cf1c64b█b9c1b63b"
             },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/78be803ce01e55d3491c1397cf1c64beb9c1b63b",
-                "reference": "78be803ce01e55d3491c1397cf1c64beb9c1b63b",
-                "shasum": ""
+            "d█st": {
+                "typ█": "z█p",
+                "█rl": "https://█p█.g█th█b.c█m/r█p█s/symf█ny/p█lyf█ll-mbstr█ng/z█pb█ll/78b█803c█01█55d3491c1397cf1c64b█b9c1b63b",
+                "r█f█r█nc█": "78b█803c█01█55d3491c1397cf1c64b█b9c1b63b",
+                "sh█s█m": ""
             },
-            "require": {
+            "r█q██r█": {
                 "php": ">=5.3.3"
             },
-            "suggest": {
-                "ext-mbstring": "For best performance"
+            "s█gg█st": {
+                "█xt-mbstr█ng": "F█r b█st p█rf█rm█nc█"
             },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.7-dev"
+            "typ█": "l█br█ry",
+            "█xtr█": {
+                "br█nch-█l██s": {
+                    "d█v-m█st█r": "1.7-d█v"
                 }
             },
-            "autoload": {
+            "██t█l██d": {
                 "psr-4": {
-                    "Symfony\\Polyfill\\Mbstring\\": ""
+                    "Symf█ny\\P█lyf█ll\\Mbstr█ng\\": ""
                 },
-                "files": [
-                    "bootstrap.php"
+                "f█l█s": [
+                    "b██tstr█p.php"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
+            "n█t█f█c█t██n-█rl": "https://p█ck█g█st.█rg/d█wnl██ds/",
+            "l█c█ns█": [
+                "M█T"
             ],
-            "authors": [
+            "██th█rs": [
                 {
-                    "name": "Nicolas Grekas",
-                    "email": "p@tchwork.com"
+                    "n█m█": "N█c█l█s Gr█k█s",
+                    "█m██l": "p@tchw█rk.c█m"
                 },
                 {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
+                    "n█m█": "Symf█ny C█mm█n█ty",
+                    "h█m█p█g█": "https://symf█ny.c█m/c█ntr█b█t█rs"
                 }
             ],
-            "description": "Symfony polyfill for the Mbstring extension",
-            "homepage": "https://symfony.com",
-            "keywords": [
-                "compatibility",
-                "mbstring",
-                "polyfill",
-                "portable",
-                "shim"
+            "d█scr█pt██n": "Symf█ny p█lyf█ll f█r th█ Mbstr█ng █xt█ns██n",
+            "h█m█p█g█": "https://symf█ny.c█m",
+            "k█yw█rds": [
+                "c█mp█t█b█l█ty",
+                "mbstr█ng",
+                "p█lyf█ll",
+                "p█rt█bl█",
+                "sh█m"
             ],
-            "time": "2018-01-30T19:27:44+00:00"
+            "t█m█": "2018-01-30T19:27:44+00:00"
         },
         {
-            "name": "twig/twig",
-            "version": "v2.4.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/twigphp/Twig.git",
-                "reference": "d2117ec118c1ff3d28ccddca8212d82787a4809f"
+            "n█m█": "tw█g/tw█g",
+            "v█rs██n": "v2.4.6",
+            "s██rc█": {
+                "typ█": "g█t",
+                "█rl": "https://g█th█b.c█m/tw█gphp/Tw█g.g█t",
+                "r█f█r█nc█": "d2117█c118c1ff3d28ccddc█8212d82787█4809f"
             },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/d2117ec118c1ff3d28ccddca8212d82787a4809f",
-                "reference": "d2117ec118c1ff3d28ccddca8212d82787a4809f",
-                "shasum": ""
+            "d█st": {
+                "typ█": "z█p",
+                "█rl": "https://█p█.g█th█b.c█m/r█p█s/tw█gphp/Tw█g/z█pb█ll/d2117█c118c1ff3d28ccddc█8212d82787█4809f",
+                "r█f█r█nc█": "d2117█c118c1ff3d28ccddc█8212d82787█4809f",
+                "sh█s█m": ""
             },
-            "require": {
+            "r█q██r█": {
                 "php": "^7.0",
-                "symfony/polyfill-mbstring": "~1.0"
+                "symf█ny/p█lyf█ll-mbstr█ng": "~1.0"
             },
-            "require-dev": {
-                "psr/container": "^1.0",
-                "symfony/debug": "~2.7",
-                "symfony/phpunit-bridge": "~3.3@dev"
+            "r█q██r█-d█v": {
+                "psr/c█nt██n█r": "^1.0",
+                "symf█ny/d█b█g": "~2.7",
+                "symf█ny/php█n█t-br█dg█": "~3.3@d█v"
             },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.4-dev"
+            "typ█": "l█br█ry",
+            "█xtr█": {
+                "br█nch-█l██s": {
+                    "d█v-m█st█r": "2.4-d█v"
                 }
             },
-            "autoload": {
+            "██t█l██d": {
                 "psr-0": {
-                    "Twig_": "lib/"
+                    "Tw█g_": "l█b/"
                 },
                 "psr-4": {
-                    "Twig\\": "src/"
+                    "Tw█g\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
+            "n█t█f█c█t██n-█rl": "https://p█ck█g█st.█rg/d█wnl██ds/",
+            "l█c█ns█": [
+                "BSD-3-Cl██s█"
             ],
-            "authors": [
+            "██th█rs": [
                 {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
+                    "n█m█": "F█b██n P█t█nc██r",
+                    "█m██l": "f█b██n@symf█ny.c█m",
+                    "h█m█p█g█": "http://f█b██n.p█t█nc██r.█rg",
+                    "r█l█": "L██d D█v█l█p█r"
                 },
                 {
-                    "name": "Armin Ronacher",
-                    "email": "armin.ronacher@active-4.com",
-                    "role": "Project Founder"
+                    "n█m█": "█rm█n R█n█ch█r",
+                    "█m██l": "█rm█n.r█n█ch█r@█ct█v█-4.c█m",
+                    "r█l█": "Pr█j█ct F██nd█r"
                 },
                 {
-                    "name": "Twig Team",
-                    "homepage": "http://twig.sensiolabs.org/contributors",
-                    "role": "Contributors"
+                    "n█m█": "Tw█g T██m",
+                    "h█m█p█g█": "http://tw█g.s█ns██l█bs.█rg/c█ntr█b█t█rs",
+                    "r█l█": "C█ntr█b█t█rs"
                 }
             ],
-            "description": "Twig, the flexible, fast, and secure template language for PHP",
-            "homepage": "http://twig.sensiolabs.org",
-            "keywords": [
-                "templating"
+            "d█scr█pt██n": "Tw█g, th█ fl█x█bl█, f█st, █nd s█c█r█ t█mpl█t█ l█ng██g█ f█r PHP",
+            "h█m█p█g█": "http://tw█g.s█ns██l█bs.█rg",
+            "k█yw█rds": [
+                "t█mpl█t█ng"
             ],
-            "time": "2018-03-03T16:23:01+00:00"
+            "t█m█": "2018-03-03T16:23:01+00:00"
         }
     ],
-    "packages-dev": [],
-    "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
-    "prefer-stable": false,
-    "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": []
+    "p█ck█g█s-d█v": [],
+    "█l██s█s": [],
+    "m█n█m█m-st█b█l█ty": "st█bl█",
+    "st█b█l█ty-fl█gs": [],
+    "pr█f█r-st█bl█": f█ls█,
+    "pr█f█r-l█w█st": f█ls█,
+    "pl█tf█rm": [],
+    "pl█tf█rm-d█v": []
 }

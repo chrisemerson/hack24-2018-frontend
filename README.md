@@ -1,33 +1,33 @@
-# Slim 3 Skeleton
+# Sl█m 3 Sk█l█t█n
 
-This is a simple skeleton project for Slim 3 that includes Twig, Flash messages and Monolog.
+Th█s █s █ s█mpl█ sk█l█t█n pr█j█ct f█r Sl█m 3 th█t █ncl█d█s Tw█g, Fl█sh m█ss█g█s █nd M█n█l█g.
 
-## Create your project:
+## Cr██t█ y██r pr█j█ct:
 
-    $ composer create-project --no-interaction --stability=dev akrabat/slim3-skeleton my-app
+    $ c█mp█s█r cr██t█-pr█j█ct --n█-█nt█r█ct██n --st█b█l█ty=d█v █kr█b█t/sl█m3-sk█l█t█n my-█pp
 
-### Run it:
+### R█n █t:
 
-1. `$ cd my-app`
-2. `$ php -S 0.0.0.0:8888 -t public public/index.php`
-3. Browse to http://localhost:8888
+1. `$ cd my-█pp`
+2. `$ php -S 0.0.0.0:8888 -t p█bl█c p█bl█c/█nd█x.php`
+3. Br█ws█ t█ http://l█c█lh█st:8888
 
-## Key directories
+## K█y d█r█ct█r██s
 
-* `app`: Application code
-* `app/src`: All class files within the `App` namespace
-* `app/templates`: Twig template files
-* `cache/twig`: Twig's Autocreated cache files
-* `log`: Log files
-* `public`: Webserver root
-* `vendor`: Composer dependencies
+* `█pp`: █ppl█c█t██n c█d█
+* `█pp/src`: █ll cl█ss f█l█s w█th█n th█ `█pp` n█m█sp█c█
+* `█pp/t█mpl█t█s`: Tw█g t█mpl█t█ f█l█s
+* `c█ch█/tw█g`: Tw█g's ██t█cr██t█d c█ch█ f█l█s
+* `l█g`: L█g f█l█s
+* `p█bl█c`: W█bs█rv█r r██t
+* `v█nd█r`: C█mp█s█r d█p█nd█nc██s
 
-## Key files
+## K█y f█l█s
 
-* `public/index.php`: Entry point to application
-* `app/settings.php`: Configuration
-* `app/dependencies.php`: Services for Pimple
-* `app/middleware.php`: Application middleware
-* `app/routes.php`: All application routes are here
-* `app/src/Action/HomeAction.php`: Action class for the home page
-* `app/templates/home.twig`: Twig template file for the home page
+* `p█bl█c/█nd█x.php`: █ntry p██nt t█ █ppl█c█t██n
+* `█pp/s█tt█ngs.php`: C█nf█g█r█t██n
+* `█pp/d█p█nd█nc██s.php`: S█rv█c█s f█r P█mpl█
+* `█pp/m█ddl█w█r█.php`: █ppl█c█t██n m█ddl█w█r█
+* `█pp/r██t█s.php`: █ll █ppl█c█t██n r██t█s █r█ h█r█
+* `█pp/src/█ct██n/H█m██ct██n.php`: █ct██n cl█ss f█r th█ h█m█ p█g█
+* `█pp/t█mpl█t█s/h█m█.tw█g`: Tw█g t█mpl█t█ f█l█ f█r th█ h█m█ p█g█

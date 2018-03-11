@@ -1,4 +1,4 @@
 <?php
-// Application middleware
+// █ppl█c█t██n m█ddl█w█r█
 
-// e.g: $app->add(new \Slim\Csrf\Guard);
+// █.g: $█pp->█dd(n█w \Sl█m\Csrf\G██rd);

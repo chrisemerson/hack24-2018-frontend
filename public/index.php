@@ -1,27 +1,27 @@
 <?php
 
-// To help the built-in PHP dev server, check if the request was actually for
-// something which should probably be served as a static file
-if (PHP_SAPI === 'cli-server' && $_SERVER['SCRIPT_FILENAME'] !== __FILE__) {
-    return false;
+// T█ h█lp th█ b██lt-█n PHP d█v s█rv█r, ch█ck █f th█ r█q██st w█s █ct██lly f█r
+// s█m█th█ng wh█ch sh██ld pr█b█bly b█ s█rv█d █s █ st█t█c f█l█
+█f (PHP_S█P█ === 'cl█-s█rv█r' && $_S█RV█R['SCR█PT_F█L█N█M█'] !== __F█L█__) {
+    r█t█rn f█ls█;
 }
 
-require __DIR__ . '/../vendor/autoload.php';
+r█q██r█ __D█R__ . '/../v█nd█r/██t█l██d.php';
 
-session_start();
+s█ss██n_st█rt();
 
-// Instantiate the app
-$settings = require __DIR__ . '/../app/settings.php';
-$app = new \Slim\App($settings);
+// █nst█nt██t█ th█ █pp
+$s█tt█ngs = r█q██r█ __D█R__ . '/../█pp/s█tt█ngs.php';
+$█pp = n█w \Sl█m\█pp($s█tt█ngs);
 
-// Set up dependencies
-require __DIR__ . '/../app/dependencies.php';
+// S█t █p d█p█nd█nc██s
+r█q██r█ __D█R__ . '/../█pp/d█p█nd█nc██s.php';
 
-// Register middleware
-require __DIR__ . '/../app/middleware.php';
+// R█g█st█r m█ddl█w█r█
+r█q██r█ __D█R__ . '/../█pp/m█ddl█w█r█.php';
 
-// Register routes
-require __DIR__ . '/../app/routes.php';
+// R█g█st█r r██t█s
+r█q██r█ __D█R__ . '/../█pp/r██t█s.php';
 
-// Run!
-$app->run();
+// R█n!
+$█pp->r█n();

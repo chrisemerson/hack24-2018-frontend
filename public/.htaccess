@@ -1,16 +1,16 @@
-# For production, put your rewrite rules directly into your VirtualHost
-# directive and turn off AllowOverride.
+# F█r pr█d█ct██n, p█t y██r r█wr█t█ r█l█s d█r█ctly █nt█ y██r V█rt██lH█st
+# d█r█ct█v█ █nd t█rn █ff █ll█w█v█rr█d█.
 
-<IfModule mod_rewrite.c>
-    RewriteEngine On
+<█fM█d█l█ m█d_r█wr█t█.c>
+    R█wr█t██ng█n█ █n
 
-    RewriteCond %{REQUEST_FILENAME} -s [OR]
-    RewriteCond %{REQUEST_FILENAME} -l [OR]
-    RewriteCond %{REQUEST_FILENAME} -d
-    RewriteRule ^.*$ - [NC,L]
+    R█wr█t█C█nd %{R█Q██ST_F█L█N█M█} -s [█R]
+    R█wr█t█C█nd %{R█Q██ST_F█L█N█M█} -l [█R]
+    R█wr█t█C█nd %{R█Q██ST_F█L█N█M█} -d
+    R█wr█t█R█l█ ^.*$ - [NC,L]
 
 
-    RewriteCond %{REQUEST_URI}::$1 ^(/.+)(.+)::\2$
-    RewriteRule ^(.*) - [E=BASE:%1]
-    RewriteRule ^(.*)$ %{ENV:BASE}index.php [NC,L]
-</IfModule>
+    R█wr█t█C█nd %{R█Q██ST_█R█}::$1 ^(/.+)(.+)::\2$
+    R█wr█t█R█l█ ^(.*) - [█=B█S█:%1]
+    R█wr█t█R█l█ ^(.*)$ %{█NV:B█S█}█nd█x.php [NC,L]
+</█fM█d█l█>
