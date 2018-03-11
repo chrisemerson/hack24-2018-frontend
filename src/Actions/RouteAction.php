@@ -63,6 +63,24 @@ class RouteAction
 
         $routesJSON = json_decode($results->getBody()->getContents())->direct_routes;
 
+        $parkAndRideRoute = $results->getBody()->getContents()->pandr_route;
+
+        $polylines = [];
+
+        foreach ($parkAndRideRoute->from_pandr->polylines as $polyline) {
+            $polylines[] = $polyline;
+        }
+
+        foreach ($parkAndRideRoute->to_pandr->polylines as $polyline) {
+            $polylines[] = $polyline;
+        }
+
+        $routesJSON[] = [
+            'polylines' => $polylines,
+            'total_score' => $parkAndRideRoute->total_score,
+            'type' => ['PARK AND RIDE'],
+        ];
+
         usort($routesJSON, [$this,'sortRoutes']);
 
         return $routesJSON;
