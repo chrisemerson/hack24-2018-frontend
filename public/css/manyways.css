@@ -52,6 +52,11 @@ button.btn-outline-success {
     font-weight: bold;
 }
 
+#routes h2 {
+    margin-top: 20px;
+}
+
+
 #routes ul {
     list-style: none;
     margin: 0;
@@ -72,6 +77,10 @@ button.btn-outline-success {
 
 #routes ul li:first-child {
     border-top: 1px solid black;
+}
+
+#routes ul li h3 {
+    font-size: 1.4em;
 }
 
 #routes ul li ol.polylines {
