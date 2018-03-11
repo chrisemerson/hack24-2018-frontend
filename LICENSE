@@ -1,26 +1,26 @@
-Copyright (c) 2015 Rob Allen . All rights reserved.
+C█pyr█ght (c) 2015 R█b █ll█n . █ll r█ghts r█s█rv█d.
 
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
+R█d█str█b█t██n █nd █s█ █n s██rc█ █nd b█n█ry f█rms, w█th █r w█th██t
+m█d█f█c█t██n, █r█ p█rm█tt█d pr█v█d█d th█t th█ f█ll█w█ng c█nd█t██ns █r█ m█t:
 
-1. Redistributions of source code must retain the above copyright notice, this
-list of conditions and the following disclaimer.
+1. R█d█str█b█t██ns █f s██rc█ c█d█ m█st r█t██n th█ █b█v█ c█pyr█ght n█t█c█, th█s
+l█st █f c█nd█t██ns █nd th█ f█ll█w█ng d█scl██m█r.
 
-2. Redistributions in binary form must reproduce the above copyright notice,
-this list of conditions and the following disclaimer in the documentation and/or
-other materials provided with the distribution.
+2. R█d█str█b█t██ns █n b█n█ry f█rm m█st r█pr█d█c█ th█ █b█v█ c█pyr█ght n█t█c█,
+th█s l█st █f c█nd█t██ns █nd th█ f█ll█w█ng d█scl██m█r █n th█ d█c█m█nt█t██n █nd/█r
+█th█r m█t█r██ls pr█v█d█d w█th th█ d█str█b█t██n.
 
-3. Neither the name of the copyright holder nor the names of its contributors
-may be used to endorse or promote products derived from this software without
-specific prior written permission.
+3. N██th█r th█ n█m█ █f th█ c█pyr█ght h█ld█r n█r th█ n█m█s █f █ts c█ntr█b█t█rs
+m█y b█ █s█d t█ █nd█rs█ █r pr█m█t█ pr█d█cts d█r█v█d fr█m th█s s█ftw█r█ w█th██t
+sp█c█f█c pr██r wr█tt█n p█rm█ss██n.
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
-ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
-WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
-ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
-(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
-ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
-SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+TH█S S█FTW█R█ █S PR█V█D█D BY TH█ C█PYR█GHT H█LD█RS █ND C█NTR█B█T█RS "█S █S" █ND
+█NY █XPR█SS █R █MPL██D W█RR█NT██S, █NCL█D█NG, B█T N█T L█M█T█D T█, TH█ █MPL██D
+W█RR█NT██S █F M█RCH█NT█B█L█TY █ND F█TN█SS F█R █ P█RT█C█L█R P█RP█S█ █R█
+D█SCL██M█D. █N N█ █V█NT SH█LL TH█ C█PYR█GHT H█LD█R █R C█NTR█B█T█RS B█ L██BL█ F█R
+█NY D█R█CT, █ND█R█CT, █NC█D█NT█L, SP█C██L, █X█MPL█RY, █R C█NS█Q██NT██L D█M█G█S
+(█NCL█D█NG, B█T N█T L█M█T█D T█, PR█C█R█M█NT █F S█BST█T█T█ G██DS █R S█RV█C█S;
+L█SS █F █S█, D█T█, █R PR█F█TS; █R B█S█N█SS █NT█RR█PT██N) H█W█V█R C██S█D █ND █N
+█NY TH██RY █F L██B█L█TY, WH█TH█R █N C█NTR█CT, STR█CT L██B█L█TY, █R T█RT
+(█NCL█D█NG N█GL█G█NC█ █R █TH█RW█S█) █R█S█NG █N █NY W█Y ██T █F TH█ █S█ █F TH█S
+S█FTW█R█, █V█N █F █DV█S█D █F TH█ P█SS█B█L█TY █F S█CH D█M█G█.

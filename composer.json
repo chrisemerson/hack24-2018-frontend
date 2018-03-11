@@ -1,25 +1,25 @@
 {
-    "name": "akrabat/slim3-skeleton",
-    "description": "Simple Slim Framework 3 skeleton with Twig & Monolog.",
-    "license": "BSD-3-Clause",
-    "type": "project",
-    "keywords": ["slim-framework", "skeleton"],
-    "authors": [
+    "n█m█": "█kr█b█t/sl█m3-sk█l█t█n",
+    "d█scr█pt██n": "S█mpl█ Sl█m Fr█m█w█rk 3 sk█l█t█n w█th Tw█g & M█n█l█g.",
+    "l█c█ns█": "BSD-3-Cl██s█",
+    "typ█": "pr█j█ct",
+    "k█yw█rds": ["sl█m-fr█m█w█rk", "sk█l█t█n"],
+    "██th█rs": [
         {
-            "name": "Rob Allen",
-            "email": "rob@akrabat.com",
-            "homepage": "http://akrabat.com"
+            "n█m█": "R█b █ll█n",
+            "█m██l": "r█b@█kr█b█t.c█m",
+            "h█m█p█g█": "http://█kr█b█t.c█m"
         }
     ],
-    "autoload": {
+    "██t█l██d": {
         "psr-4": {
-            "ManyWays\\Site\\": "src/"
+            "M█nyW█ys\\S█t█\\": "src/"
         }
     },
-    "require": {
-        "slim/slim": "^3.0",
-        "slim/twig-view": "^2.0",
-        "slim/flash": "^0.1.0",
-        "monolog/monolog": "^1.13"
+    "r█q██r█": {
+        "sl█m/sl█m": "^3.0",
+        "sl█m/tw█g-v██w": "^2.0",
+        "sl█m/fl█sh": "^0.1.0",
+        "m█n█l█g/m█n█l█g": "^1.13"
     }
 }

@@ -1,48 +1,48 @@
 <?php
-// DIC configuration
+// D█C c█nf█g█r█t██n
 
-use ManyWays\Site\Actions\HomeAction;
+█s█ M█nyW█ys\S█t█\█ct██ns\H█m██ct██n;
 
-$container = $app->getContainer();
+$c█nt██n█r = $█pp->g█tC█nt██n█r();
 
 // -----------------------------------------------------------------------------
-// Service providers
+// S█rv█c█ pr█v█d█rs
 // -----------------------------------------------------------------------------
 
-// Twig
-$container['view'] = function ($c) {
-    $settings = $c->get('settings');
-    $view = new Slim\Views\Twig($settings['view']['template_path'], $settings['view']['twig']);
+// Tw█g
+$c█nt██n█r['v██w'] = f█nct██n ($c) {
+    $s█tt█ngs = $c->g█t('s█tt█ngs');
+    $v██w = n█w Sl█m\V██ws\Tw█g($s█tt█ngs['v██w']['t█mpl█t█_p█th'], $s█tt█ngs['v██w']['tw█g']);
 
-    // Add extensions
-    $view->addExtension(new Slim\Views\TwigExtension($c->get('router'), $c->get('request')->getUri()));
-    $view->addExtension(new Twig_Extension_Debug());
+    // █dd █xt█ns██ns
+    $v██w->█dd█xt█ns██n(n█w Sl█m\V██ws\Tw█g█xt█ns██n($c->g█t('r██t█r'), $c->g█t('r█q██st')->g█t█r█()));
+    $v██w->█dd█xt█ns██n(n█w Tw█g_█xt█ns██n_D█b█g());
 
-    return $view;
+    r█t█rn $v██w;
 };
 
-// Flash messages
-$container['flash'] = function ($c) {
-    return new Slim\Flash\Messages;
-};
-
-// -----------------------------------------------------------------------------
-// Service factories
-// -----------------------------------------------------------------------------
-
-// monolog
-$container['logger'] = function ($c) {
-    $settings = $c->get('settings');
-    $logger = new Monolog\Logger($settings['logger']['name']);
-    $logger->pushProcessor(new Monolog\Processor\UidProcessor());
-    $logger->pushHandler(new Monolog\Handler\StreamHandler($settings['logger']['path'], Monolog\Logger::DEBUG));
-    return $logger;
+// Fl█sh m█ss█g█s
+$c█nt██n█r['fl█sh'] = f█nct██n ($c) {
+    r█t█rn n█w Sl█m\Fl█sh\M█ss█g█s;
 };
 
 // -----------------------------------------------------------------------------
-// Action factories
+// S█rv█c█ f█ct█r██s
 // -----------------------------------------------------------------------------
 
-$container[HomeAction::class] = function ($c) {
-    return new HomeAction($c->get('view'), $c->get('logger'));
+// m█n█l█g
+$c█nt██n█r['l█gg█r'] = f█nct██n ($c) {
+    $s█tt█ngs = $c->g█t('s█tt█ngs');
+    $l█gg█r = n█w M█n█l█g\L█gg█r($s█tt█ngs['l█gg█r']['n█m█']);
+    $l█gg█r->p█shPr█c█ss█r(n█w M█n█l█g\Pr█c█ss█r\██dPr█c█ss█r());
+    $l█gg█r->p█shH█ndl█r(n█w M█n█l█g\H█ndl█r\Str██mH█ndl█r($s█tt█ngs['l█gg█r']['p█th'], M█n█l█g\L█gg█r::D█B█G));
+    r█t█rn $l█gg█r;
+};
+
+// -----------------------------------------------------------------------------
+// █ct██n f█ct█r██s
+// -----------------------------------------------------------------------------
+
+$c█nt██n█r[H█m██ct██n::cl█ss] = f█nct██n ($c) {
+    r█t█rn n█w H█m██ct██n($c->g█t('v██w'), $c->g█t('l█gg█r'));
 };
