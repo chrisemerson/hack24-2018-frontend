@@ -3,6 +3,7 @@
 
 use ManyWays\Site\Actions\HomeAction;
 use ManyWays\Site\Actions\RouteAction;
+use ManyWays\Site\Twig\ManyWaysTwigExtension;
 
 $container = $app->getContainer();
 
@@ -18,6 +19,7 @@ $container['view'] = function ($c) {
     // Add extensions
     $view->addExtension(new Slim\Views\TwigExtension($c->get('router'), $c->get('request')->getUri()));
     $view->addExtension(new Twig_Extension_Debug());
+    $view->addExtension(new ManyWaysTwigExtension());
 
     return $view;
 };

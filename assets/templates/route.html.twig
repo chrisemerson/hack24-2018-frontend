@@ -1,9 +1,32 @@
 {% extends "base.html.twig" %}
 
 {% block content %}
-<div class="container">
+<div class="container-fluid" id="mapcontainer">
     <div class="row">
+        <div class="col col-9" id="map"></div>
+        <div class="col col-3" id="routes">
+            <h2>Route Options</h2>
 
+            <ul>
+{% for route in routes %}
+                <li data-bounds-ne="{{ route.bounds.northeast.lat }},{{ route.bounds.northeast.lng }}" data-bounds-sw="{{ route.bounds.southwest.lat }},{{ route.bounds.southwest.lng }}">
+                    <h3>{{ route.type|ucwords }}</h3>
+                    <p>Score: {{ route.score.total_score|round }}</p>
+
+                    <ol class="polylines">
+{% for polyline in route.polylines %}
+                        <li data-type="{{ route.type }}">{{ polyline }}</li>
+{% endfor %}
+                    </ol>
+                </li>
+{% endfor %}
+            </ul>
+        </div>
     </div>
 </div>
+{% endblock %}
+
+{% block javascript %}
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBN8wqfnVFqP62J3z3BiBd0SxZvglawPU0&libraries=geometry"></script>
+<script src="js/route.js"></script>
 {% endblock %}
