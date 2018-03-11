@@ -2,14 +2,11 @@ html, body, .container, .row.align-items-center {
     height: 100%;
 }
 
-body {
-    background: url('../img/transport.jpg') center bottom no-repeat;
-}
-
 header {
     height: 150px;
     padding-top: 10px;
     background: url('../img/rh.png') #005008 no-repeat right center;
+    z-index: 1;
 }
 
 header h1 {
@@ -17,10 +14,23 @@ header h1 {
     font-weight: bold;
     margin-top: 30px;
     margin-left: 50px;
+    margin-bottom: 0;
+    padding-left: 60px;
+    background: url('../img/arrow.png') no-repeat left center;
+}
+
+header h2 {
+    color: #dddddd;
+    margin-top: 0;
+    margin-left: 50px;
 }
 
 .container {
     margin-top: -150px;
+}
+
+.container.home {
+    background: url('../img/transport.jpg') center bottom no-repeat;
 }
 
 input[type=text] {

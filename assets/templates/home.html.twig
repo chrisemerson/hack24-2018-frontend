@@ -1,21 +1,23 @@
 {% extends "base.html.twig" %}
 
 {% block content %}
-<div class="row align-items-center">
-    <div class="col">
-        <form action="/" method="GET">
-            <div class="form-group">
-                <input class="form-control form-control-lg" type="text" name="start" placeholder="From">
-            </div>
+<div class="container home">
+    <div class="row align-items-center">
+        <div class="col">
+            <form action="/route" method="GET">
+                <div class="form-group">
+                    <input class="form-control form-control-lg" type="text" name="start" placeholder="From">
+                </div>
 
-            <div class="form-group">
-                <input class="form-control form-control-lg" type="text" name="end" placeholder="To">
-            </div>
+                <div class="form-group">
+                    <input class="form-control form-control-lg" type="text" name="end" placeholder="To">
+                </div>
 
-            <div class="form-group">
-                <button type="submit" class="btn btn-outline-success btn-block">Find Routes</button>
-            </div>
-        </form>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-outline-success btn-block">Find Routes</button>
+                </div>
+            </form>
+        </div>
     </div>
 </div>
 {% endblock %}

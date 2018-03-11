@@ -2,6 +2,7 @@
 // DIC configuration
 
 use ManyWays\Site\Actions\HomeAction;
+use ManyWays\Site\Actions\RouteAction;
 
 $container = $app->getContainer();
 
@@ -45,4 +46,8 @@ $container['logger'] = function ($c) {
 
 $container[HomeAction::class] = function ($c) {
     return new HomeAction($c->get('view'), $c->get('logger'));
+};
+
+$container[RouteAction::class] = function ($c) {
+    return new RouteAction($c->get('view'), $c->get('logger'));
 };
