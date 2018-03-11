@@ -1,0 +1,33 @@
+html, body, .container, .row.align-items-center {
+    height: 100%;
+}
+
+body {
+    background: url('../img/transport.jpg') center bottom no-repeat;
+}
+
+header {
+    height: 150px;
+    padding-top: 10px;
+    background: url('../img/rh.png') #005008 no-repeat right center;
+}
+
+header h1 {
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.container {
+    margin-top: -150px;
+}
+
+input[type=text] {
+    margin-bottom: 10px;
+}
+
+button.btn-outline-success {
+    background-color: #ffffff;
+    font-weight: bold;
+}
