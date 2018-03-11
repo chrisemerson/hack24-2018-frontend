@@ -10,12 +10,12 @@
             <ul>
 {% for route in routes %}
                 <li data-bounds-ne="{{ route.bounds.northeast.lat }},{{ route.bounds.northeast.lng }}" data-bounds-sw="{{ route.bounds.southwest.lat }},{{ route.bounds.southwest.lng }}">
-                    <h3>{{ route.type|lower|ucwords }}</h3>
-                    <p>Score: {{ route.score.total_score|round }}</p>
+                    <h3>{{ route.type|join(' + ')|lower|ucwords }}</h3>
+                    <p>Score: {{ route.total_score|round }}</p>
 
                     <ol class="polylines">
 {% for polyline in route.polylines %}
-                        <li data-type="{{ route.type }}">{{ polyline }}</li>
+                        <li data-type="{{ route.type[0] }}">{{ polyline }}</li>
 {% endfor %}
                     </ol>
                 </li>

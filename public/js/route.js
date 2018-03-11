@@ -6,7 +6,8 @@
     var colors = {
         'WALKING': "#00FF00",
         'DRIVING': "#FF0000",
-        'TRANSIT': "#0000FF",
+        'TRANSIT': "#FFFF00",
+        'PARK AND RIDE': '#0000FF'
     };
 
     var init = function () {

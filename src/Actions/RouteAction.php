@@ -61,7 +61,7 @@ class RouteAction
             'end' => $endLat . "," . $endLong,
         ]]);
 
-        $routesJSON = json_decode($results->getBody()->getContents())->routes;
+        $routesJSON = json_decode($results->getBody()->getContents())->direct_routes;
 
         usort($routesJSON, [$this,'sortRoutes']);
 
@@ -70,6 +70,6 @@ class RouteAction
 
     private function sortRoutes($route1, $route2)
     {
-        return $route2->score->total_score <=> $route1->score->total_score;
+        return $route2->total_score <=> $route1->total_score;
     }
 }
