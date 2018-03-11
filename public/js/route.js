@@ -4,9 +4,9 @@
     var map;
     var polylines = [];
     var colors = {
-        'walking': "#00FF00",
-        'driving': "#FF0000",
-        'transit': "#0000FF",
+        'WALKING': "#00FF00",
+        'DRIVING': "#FF0000",
+        'TRANSIT': "#0000FF",
     };
 
     var init = function () {
